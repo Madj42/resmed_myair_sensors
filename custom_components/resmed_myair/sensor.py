@@ -156,7 +156,7 @@ SLEEP_RECORD_SENSOR_DESCRIPTIONS: Dict[str, SensorEntityDescription] = {
         key="totalUsage",
         state_class=SensorStateClass.MEASUREMENT,
         device_class=SensorDeviceClass.DURATION,
-hhh
+
         native_unit_of_measurement=UnitOfTime.MINUTES,
     ),
     "CPAP Mask On/Off": SensorEntityDescription(
